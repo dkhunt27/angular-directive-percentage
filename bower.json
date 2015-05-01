@@ -1,0 +1,20 @@
+{
+  "name": "angular-directive-percentage",
+  "version": "0.2.0",
+  "main": "angular-directive-percentage.js",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    ".travis.yml",
+    "bower_components",
+    "coverage",
+    "node_modules",
+    "npm-debug.log"
+  ],
+  "devDependencies": {
+    "angular": "1.2.28",
+    "angular-mocks": "1.2.28"
+  }
+}

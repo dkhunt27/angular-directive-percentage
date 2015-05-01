@@ -1,0 +1,41 @@
+{
+  "name": "angular-directive-percentage",
+  "version": "0.3.0",
+  "description": "AngularJS directive to validate percentage inputs",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "2.3.0",
+    "istanbul": "0.3.13",
+    "karma": "0.12.6",
+    "karma-chai": "0.1.0",
+    "karma-coverage": "0.2.7",
+    "karma-coveralls": "0.1.5",
+    "karma-mocha": "0.1.3",
+    "karma-phantomjs-launcher": "0.1.4",
+    "mocha": "2.2.4"
+  },
+  "files": [
+    ".bowerrc",
+    "test",
+    "angular-directive-percentage.js",
+    "bower.json",
+    "karma.conf.js",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dkhunt27/angular-directive-percentage.git"
+  },
+  "author": "Dan Hunt <dkhunt27@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkhunt27/angular-directive-percentage/issues"
+  },
+  "contributors": [],
+  "homepage": "https://github.com/dkhunt27/angular-directive-percentage"
+}

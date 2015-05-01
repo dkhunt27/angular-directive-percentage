@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.10'
+- '0.12'
+before_script:
+- npm install -g bower
+- bower install
+after_success:
+- npm test
+env:
+  global:
+    secure: UPsOy23yf5m1T4KTmoDFl5+9Dw1SKagL+/PRintu/T4iejAPauq6PpuU4fr0i/IbZXLPkTLc/VfZ0InUJdhOSWFxB+Wp6VewLJq9RcUc3PYiuBMhmn+NSbvqGh3kX6xIhXKVv9gWKoBhKvu84sBemLetO7j2X/s4QdxJKyeTHn8=
