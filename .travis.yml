@@ -9,4 +9,4 @@ after_success:
 - npm test
 env:
   global:
-    secure: UPsOy23yf5m1T4KTmoDFl5+9Dw1SKagL+/PRintu/T4iejAPauq6PpuU4fr0i/IbZXLPkTLc/VfZ0InUJdhOSWFxB+Wp6VewLJq9RcUc3PYiuBMhmn+NSbvqGh3kX6xIhXKVv9gWKoBhKvu84sBemLetO7j2X/s4QdxJKyeTHn8=
+    secure: cB0AyBWXOqXocyEiRhOFKmI0U25JFmsX3+wiVvHjCQRulxHHOocL5fAysxaJ0VMdIblRfoXEYsSch+0pNykZuf2hAVG9fT0T/JSTUas4JViG5UzFXiV6tE7RhcriWlNu2DAHR54V1exdvYku52atFVSCw/HEDOfPL+euBcCnh/M=

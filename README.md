@@ -57,4 +57,12 @@ Basic example:
 ## Tests:
 
 1. Install test deps: `npm install` and `bower install`
-1. Run: `npm test` or `./node_modules/karma/bin/karma start`
+2. Run: `npm test` or `./node_modules/karma/bin/karma start`
+
+## Coveralls.io
+
+Using coveralls.io for the code coverage badge.  Using instanbul, karma-coverage, and karma-coveralls to generate code coverage and push to coveralls.io.
+The push to coveralls.io requires the repo token.  I am using an environment variable COVERALLS_REPO_TOKEN_FOR_ANGULAR_DIRECTIVE_PERCENTAGE that gets mapped
+to the required COVERALLS_REPO_TOKEN per test run.  The travis build sets this environment variable using [encrypted](http://docs.travis-ci.com/user/encryption-keys/)
+variables.  However, if running this locally, you will need to setup your forked repo in [coveralls.io](https://coveralls.io/) and set that environment 
+variable (COVERALLS_REPO_TOKEN_FOR_ANGULAR_DIRECTIVE_PERCENTAGE) to your repo token

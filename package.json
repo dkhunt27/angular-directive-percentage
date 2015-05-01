@@ -25,7 +25,7 @@
     "README.md"
   ],
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run"
+    "test": "COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN_FOR_ANGULAR_DIRECTIVE_PERCENTAGE ./node_modules/karma/bin/karma start --single-run"
   },
   "repository": {
     "type": "git",
