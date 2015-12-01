@@ -294,3 +294,7 @@ angular.module('angular-directive-percentage', [])
     };
   }
 );
+
+if (module && module.exports) {
+  module.exports = 'angular-directive-percentage';
+}

@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <style>
+
+input.ng-invalid {
+  border: 1px solid red;
+}
+
+    </style>
+  </head>
+  <body ng-app='test'>
+    <div ng-controller='Test'>
+
+      <form>
+        <input type='text' ng-model='ctrl.foo' required='true' percentage>
+      </form>
+
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="angular-directive-percentage.js"></script>
+    <script>
+
+angular.module('test', ['angular-directive-percentage'])
+.controller('Test', function($scope) {
+  $scope.ctrl = {};
+})
+
+    </script>
+  </body>
+</html>
