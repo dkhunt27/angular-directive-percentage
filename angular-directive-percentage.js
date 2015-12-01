@@ -45,7 +45,7 @@ angular.module('angular-directive-percentage', [])
       var parsedValue = "";
 
       // check if valid (one of the validators could have set to be invalid already)
-      if (ngModelCtrl.$valid) {
+      if (ngModelCtrl.$valid || !ngModelCtrl.$error.percentage) {
 
         if (ngModelCtrl.$isEmpty(viewValue)) {
           // handle empty view data since we can't covert it back to a decimal
